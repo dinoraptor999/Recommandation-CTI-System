@@ -1,0 +1,24 @@
+{
+    "technique_id": "T1059.001",
+    "tactic": "Execution",
+    "technique_name": "PowerShell",
+    "evidence": "The attacker utilized PowerShell to download the payload from a remote server using Invoke-Expression.",
+    "confidence_score": 0.95,
+    "iocs": {
+        "ips": [
+            "192.168.1.100",
+            "45.33.22.11"
+        ],
+        "domains": [
+            "malicious-payload.com"
+        ],
+        "hashes": [
+            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        ],
+        "emails": [
+            "admin@evilcorp.com"
+        ]
+    },
+    "analysis_timestamp": "2026-08-17T22:48:05.458377",
+    "source_filename": "sample_report_01.pdf"
+}

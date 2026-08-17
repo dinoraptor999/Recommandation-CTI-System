@@ -1,0 +1,23 @@
+{
+    "technique_id": "T1566.001",
+    "tactic": "Initial Access",
+    "technique_name": "Phishing (Spearphishing Attachment)",
+    "evidence": "A malicious Word document with embedded macro was attached to the email.",
+    "confidence_score": 0.88,
+    "iocs": {
+        "ips": [
+            "10.10.10.5"
+        ],
+        "domains": [
+            "phishing-site.net"
+        ],
+        "hashes": [
+            "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"
+        ],
+        "emails": [
+            "support@security-update.com"
+        ]
+    },
+    "analysis_timestamp": "2026-08-17T22:48:05.458407",
+    "source_filename": "sample_report_02.pdf"
+}
