@@ -1,0 +1,9 @@
+*.pt
+*.safetensors
+*.bin
+data/raw_pdfs/*
+models/*
+venv/
+.env
+__pycache__/
+*.pyc
